@@ -1,5 +1,8 @@
 package com.dio.santader.banklineapi.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Correntista {
     private Integer id;
     private String cpf;
